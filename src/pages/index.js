@@ -12,6 +12,12 @@ const IndexPage = () => (
 			<li>
 				<Link to="/page-2/">Go to page 2</Link>
 			</li>
+			<li>
+				<Link to="/blog/">Blog</Link>
+			</li>
+			<li>
+				<Link to="/image/">Images</Link>
+			</li>
 		</ul>
 	</Layout>
 )

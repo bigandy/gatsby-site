@@ -26,6 +26,7 @@ class ImagePage extends React.Component {
 						images={30}
 						isRotated={this.state.isToggleOn}
 						onClick={this.handleClickz}
+						height={250}
 					/>
 				</div>
 			</Layout>
