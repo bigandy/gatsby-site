@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Layout from '../components/layout'
-import ImageBlock from '../components/ImageBlock'
+import ImageBlock from '../components/imageBlock'
 
 class ImagePage extends React.Component {
 	constructor(props) {
