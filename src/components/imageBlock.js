@@ -1,7 +1,7 @@
 import React from 'react'
 import * as PropTypes from 'prop-types'
 
-import imageBlock from './imageBlock.module.css'
+import imageBlockStyle from './imageBlockStyle.module.css'
 
 class ImageBlock extends React.Component {
 	static propTypes = {
@@ -38,7 +38,7 @@ class ImageBlock extends React.Component {
 		})
 
 		return (
-			<div className={imageBlock.container}>
+			<div className={imageBlockStyle.container}>
 				<p>There are {images} images</p>
 				{altImagesMarkup}
 			</div>
