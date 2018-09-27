@@ -13,8 +13,6 @@ contentfulConfig = {
 	accessToken: process.env.CONTENTFUL_DELIVERY_TOKEN || contentfulConfig.accessToken,
 }
 
-// console.log(contentfulConfig, process.env, config);
-
 if (process.env.ACTIVE_ENV) {
 	contentfulConfig['host'] = config.host;
 	contentfulConfig['accessToken'] = config.devAccessToken;
@@ -34,6 +32,8 @@ module.exports = {
 		title: 'Andrew’s Making a Gatsby Site',
 	},
 	plugins: [
+		'ah-random-jokes',
+		'ah-strava',
 		'gatsby-transformer-remark',
 		'gatsby-plugin-react-helmet',
 		{

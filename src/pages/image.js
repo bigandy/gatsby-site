@@ -10,7 +10,7 @@ class ImagePage extends React.Component {
 	}
 
 	handleClick = () => {
-		console.log('have been clicked', this)
+		// console.log('have been clicked', this)
 
 		this.setState(state => ({
 			isToggleOn: !state.isToggleOn,

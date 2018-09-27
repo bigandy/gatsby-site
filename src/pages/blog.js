@@ -18,7 +18,6 @@ class BlogIndex extends React.Component {
                     <h2 className="section-headline">Recent articles</h2>
                     <ul className="article-list">
                         {posts.map(({ node }) => {
-                            console.log(node);
                             return (
                                 <li key={node.slug}>
                                     <Link

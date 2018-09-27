@@ -20,8 +20,9 @@ class ImageBlock extends React.Component {
 		const altImagesMarkup = Array.apply(null, {
 			length: images,
 		}).map((e, i) => {
+			var angle = (i * 360) / images;
 			var style = {
-				transform: `rotate(${(i * 360) / images}deg)`,
+				transform: `rotate(${angle}deg)`,
 				position: 'absolute',
 			}
 
