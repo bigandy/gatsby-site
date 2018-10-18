@@ -18,8 +18,7 @@ exports.sourceNodes = async ({ actions }) => {
 			children: [],
 			id: activity.id.toString(),
 			name: activity.name.toString(),
-			// setup: joke.setup,
-			// punchline: joke.punchline,
+			distance: activity.distance.toString(),
 			parent: null,
 			internal: {
 				type: 'Activity',

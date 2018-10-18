@@ -25,7 +25,7 @@ export default class Activities extends React.Component {
 	render() {
 		return (
 			<Layout>
-				<ul className="Jokes">{this._renderActivities()}</ul>
+				<ul>{this._renderActivities()}</ul>
 			</Layout>
 		);
 	}

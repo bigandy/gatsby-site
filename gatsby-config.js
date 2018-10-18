@@ -31,7 +31,7 @@ module.exports = {
 		title: 'Andrew’s Making a Gatsby Site',
 	},
 	plugins: [
-		'ah-random-jokes',
+		// 'ah-random-jokes',
 		'ah-strava',
 		'gatsby-transformer-remark',
 		'gatsby-plugin-react-helmet',
