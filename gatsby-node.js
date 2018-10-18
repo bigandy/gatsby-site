@@ -1,6 +1,5 @@
 const path = require('path');
 const _ = require('lodash');
-const slash = require('slash');
 
 exports.createPages = ({ graphql, actions }) => {
 	const { createPage } = actions;
