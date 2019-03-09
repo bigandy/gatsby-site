@@ -9,10 +9,12 @@ class PostTemplate extends React.Component {
 
 		return (
 			<Layout>
-				<Link to={'/wordpress-blog'}>Back to WordPress Blog</Link>
-				{post.date}
-				<h1 dangerouslySetInnerHTML={{ __html: post.title }} />
-				<div dangerouslySetInnerHTML={{ __html: post.content }} />
+				<article>
+					<Link to={'/wordpress-blog'}>Back to WordPress Blog</Link>
+					<h1>{post.title}</h1>
+					{post.date}
+					<div dangerouslySetInnerHTML={{ __html: post.content }} />
+				</article>
 			</Layout>
 		);
 	}

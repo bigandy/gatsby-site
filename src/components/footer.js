@@ -20,7 +20,7 @@ const Footer = ({ siteTitle, staticFooter }) => {
 	}
 
 	return (
-		<div style={footerStyles}>
+		<footer style={footerStyles}>
 			<div
 				style={{
 					margin: '0 auto',
@@ -38,7 +38,7 @@ const Footer = ({ siteTitle, staticFooter }) => {
 					&copy; {siteTitle} 2019
 				</Link>
 			</div>
-		</div>
+		</footer>
 	)
 }
 
