@@ -35,7 +35,7 @@ const Footer = ({ siteTitle, staticFooter }) => {
 						textDecoration: 'none',
 					}}
 				>
-					&copy; {siteTitle} 2018
+					&copy; {siteTitle} 2019
 				</Link>
 			</div>
 		</div>
